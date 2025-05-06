@@ -7,7 +7,7 @@ const Instamart = () => {
   const [item, setItem] = useState(null);
 
   const search = () => {
-    setItem({ title: grocery, price: 199 });
+    setItem({ title: grocery, price: 99 });
   };
 
   return (

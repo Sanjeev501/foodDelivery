@@ -22,9 +22,7 @@ const Restaurant = () => {
       <button className="searchBtn" onClick={search}>
         Search
       </button>
-      {item && (
-        <Tile title={item.title} price={item.price} discount={discount} />
-      )}
+      {item && <Tile title={item.title} discount={discount} />}
     </div>
   );
 };
